@@ -37,7 +37,7 @@ body{
 
 .logo{
     width: 410px;
-    margin: auto 15px;
+    margin: auto;
     padding: 20px;
     padding-top: 26px;
     border: 1.5px solid var(--cor2);
@@ -97,6 +97,7 @@ body{
     font-size: 2em;
     color: white;
     margin-top: 30px;
+    margin: auto;
     text-align: center;
 }
 
@@ -158,8 +159,9 @@ section.container section.card{
   #orcamento{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     text-align: center;
-    margin: 15px;
-    padding: 20px 5px ;
+    margin: 15px auto;
+    width: 400px;
+    padding: 20px 5px;
     border-radius: 10px;
   }
 
