@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: var(--font3);
+    color: white;
+}
+
+@media (min-width: 800px){
+    
+    .logo{
+        margin: 0px 450px; 
+    }
+
+    #sobre{
+        width: 500px;
+        margin: auto;
+    }
+
+    .container{
+        width: 900px;
+        margin: auto;
+    }
+
+    #orcamento{
+        width: 840px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    footer{
+        margin-top: 20px;
+    }
+}
