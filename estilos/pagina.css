@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: var(--font1);
+}
+
+:root{
+    --cor1: rgb(238, 27, 27);
+    --cor2: rgb(173, 12, 12);
+    --font1: 'League Spartan', sans-serif;
+    --font2: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#botao{
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    width: 28px;
+}
+#botao a{
+    color: white;
+}
+
+.cabecalho{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.cabecalho > div h1{
+    font-family: var(--font2);
+    font-size: 3em;
+}
+
+.logo{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    margin: 0px 15px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
+}
+
+#subt{
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--font2);
+}
+
+#sobre{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    height: 90vh;
+    text-align: justify;
+    text-indent: 20px;
+}
