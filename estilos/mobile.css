@@ -8,7 +8,8 @@
 }
 
 :root{
-    --cor1: rgb(238, 27, 27);
+    --cor1: #ee1b1b;
+    --cor2: rgb(173, 12, 12);
     --font1: 'League Spartan', sans-serif;
     --font2: 'Poppins', sans-serif;
 }
@@ -19,20 +20,26 @@ body{
 }
 
 #contato{
-    font-family: var(--font2);
     margin-top: 15px;
-    margin-right: 20px;
+    display: flex;
+    gap: 50px;
   }
 
- #redes-sociais{
-    display: flex;
-    justify-content: right;
-    gap: 10px;
+  #contato p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: var(--cor1);
  }
 
- #redes-sociais img{
-    margin: 5px;
+ #contato div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
+
 
  header {
     background-color: black;
@@ -52,7 +59,8 @@ body{
 .logo{
     margin: 0px 15px;
     padding: 20px;
-    border: 1px solid var(--cor1);
+    padding-top: 26px;
+    border: 1.5px solid var(--cor2);
     line-height: 2em
 }
 .logo span{
