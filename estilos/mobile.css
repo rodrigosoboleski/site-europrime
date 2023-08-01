@@ -36,7 +36,7 @@ body{
 }
 
 .logo{
-    width: 410px;
+    width: 70%;
     margin: auto;
     padding: 20px;
     padding-top: 26px;
@@ -47,50 +47,18 @@ body{
     color: var(--cor1);
 }
 
-.menu{
-    background-color: var(--cor1);
-    padding: 5px;
-    margin: 15px;
-    text-align: center;
-}
-
-.menu ul {
-    list-style: none;
-}
-
-.menu ul li {
-    display: inline;
-}
-.menu ul li a{
-    display: inline-block;  
-    padding: 5px 25px;
-    border-radius: 30px;
-    transition: background .4s;
-}
-.menu ul li a:hover{
-    background-color: rgb(0, 0, 0);
-    color: var(--cor1);
-}
 /*===========================================*/
-#sobre{
-    font-family: sans-serif
-}
 
-#sobre div {
-    background-color: var(--cor1);
-    margin: 15px;
-}
-#sobre div h2{
+#sobre {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     text-align: center;
-    padding: 5px;
-    font-size: 2em;
-}
-#sobre div p{
-    margin: auto;
-    padding-bottom: 20px;
-    text-align: center;
-    text-indent: 20px;
+    margin: 45px auto 20px;
     width: 80%;
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+#sobre  h2{
+    font-size: 2em;
 }
 /*===========================================*/
 #servicos{
@@ -160,7 +128,7 @@ section.container section.card{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     text-align: center;
     margin: 15px auto;
-    width: 400px;
+    width: 80%;
     padding: 20px 5px;
     border-radius: 10px;
   }

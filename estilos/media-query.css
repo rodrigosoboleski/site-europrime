@@ -16,8 +16,8 @@
     }
 
     #sobre{
-        width: 500px;
-        margin: auto;
+        margin: 45px auto 20px;
+        width: 840px;
     }
 
     .container{
@@ -32,6 +32,6 @@
     }
 
     footer{
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
