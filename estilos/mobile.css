@@ -14,8 +14,9 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
-    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 #contato{
@@ -134,7 +135,7 @@ section.servicos{
 section.container{
     flex-wrap: wrap;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 }
 
