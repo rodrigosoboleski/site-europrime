@@ -8,10 +8,11 @@
     color: white;
 }
 
-@media (min-width: 800px){
+@media (min-width: 980px){
     
     .logo{
         margin: 0px 450px; 
+        width: 410px;
     }
 
     #sobre{

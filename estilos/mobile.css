@@ -36,7 +36,8 @@ body{
 }
 
 .logo{
-    margin: 0px 15px;
+    width: 410px;
+    margin: auto 15px;
     padding: 20px;
     padding-top: 26px;
     border: 1.5px solid var(--cor2);
