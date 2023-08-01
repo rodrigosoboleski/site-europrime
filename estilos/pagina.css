@@ -4,7 +4,8 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
-    font-family: var(--font1);
+    font-family: var(--font3);
+    color: white;
 }
 
 :root{
@@ -12,48 +13,44 @@
     --cor2: rgb(173, 12, 12);
     --font1: 'League Spartan', sans-serif;
     --font2: 'Poppins', sans-serif;
+    --font3: 'Josefin Sans', sans-serif;
 }
 
 body{
     background-color: black;
-    color: white;
     margin: 20px;
 }
 
 #botao{
     background-color: var(--cor2);
-    text-align: center;
-    border-radius: 50%;
-    padding: 5px;
-    width: 28px;
-    margin: 15px auto;
-}
-#botao a{
-    color: white;
-}
-
-.cabecalho{
-    text-align: center;
-    color: white;
-    margin-top: 15px;
-}
-.cabecalho > div h1{
-    font-family: var(--font2);
-    font-size: 3em;
-}
-
-.logo{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    margin: 0px 15px;
+    font-size: 1em;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
+}
+
+#botao:hover{
+    background-color: rgba(202, 44, 44, 0.616);
+    transition: 0.3s;
+}
+
+h1{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 #subt{
+    background-color: white;
+    color: black;
+    padding: 15px;
     margin: 30px 20px;
     text-align: center;
-    font-size: 15px;
-    font-family: var(--font2);
+    font-size: 1.2em;
 }
 
 #sobre{
