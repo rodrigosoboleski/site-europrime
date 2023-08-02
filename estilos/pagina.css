@@ -57,16 +57,12 @@ header #botao{
 }
 
 #imagem{
-    background-color: goldenrod;
-    padding: 50px 0px;
     text-align: center;
-    display: flex;
 }
 
 .img{
-    width: 660px;
-    height: 150px;
-    background-color: aqua;
+    margin: auto;
+    width: 450px;
 }
 
 .titulo{
@@ -75,7 +71,7 @@ header #botao{
     text-align: center;
     font-size: 1.5em;
     top: 140px;
-    width: 500px;
+    width: 470px;
     text-shadow: 1px 5px 10px black;
     
 }
