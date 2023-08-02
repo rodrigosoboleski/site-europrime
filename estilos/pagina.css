@@ -58,11 +58,12 @@ header #botao{
 
 #imagem{
     text-align: center;
+    margin: 20px;
 }
 
 .img{
-    margin: auto;
-    width: 450px;
+    margin: 20px auto;
+    width: 400px;
 }
 
 .titulo{
@@ -70,8 +71,8 @@ header #botao{
     position: absolute;
     text-align: center;
     font-size: 1.5em;
-    top: 140px;
-    width: 470px;
+    top: 150px;
+    width: 485px;
     text-shadow: 1px 5px 10px black;
     
 }
