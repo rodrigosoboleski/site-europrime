@@ -5,7 +5,6 @@
     margin: 0px;
     text-decoration: none;
     font-family: var(--font3);
-    color: white;
 }
 
 :root{
@@ -16,18 +15,32 @@
     --font3: 'Josefin Sans', sans-serif;
 }
 
-body{
+#endereco{
     background-color: black;
-    margin: 20px;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 5px;
 }
 
-#botao{
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #botao{
+    padding-right: 20px;
     background-color: var(--cor2);
-    font-size: 1em;
-    width: 50px;
-    margin: 10px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 10px;
+}
+
+#botao a {
+    color: white;
 }
 
 #botao:hover{
@@ -35,30 +48,41 @@ body{
     transition: 0.3s;
 }
 
-h1{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    border-radius: 10px;
-    margin: 15px;
-    padding: 20px;
-    text-align: center;
-    font-size: 2.5em;
+#logo h1{
+    font-family: var(--font3);
 }
 
-#subt{
-    background-color: white;
-    color: black;
-    padding: 15px;
-    margin: 30px 20px;
-    text-align: center;
-    font-size: 1.2em;
+#logo span{
+    color: var(--cor1);
 }
 
-#sobre{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    border-radius: 10px;
-    margin: 15px;
-    padding: 15px;
-    height: 90vh;
-    text-align: justify;
-    text-indent: 20px;
+#imagem{
+    background-color: goldenrod;
+    padding: 50px 0px;
+    text-align: center;
+    display: flex;
 }
+
+.img{
+    width: 680px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.titulo{
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5em;
+    top: 140px;
+    width: 500px;
+    text-shadow: 1px 5px 10px black;
+    
+}
+
+main{
+    background-color: gray;
+    margin: 10px;
+   padding: 10px; 
+}
+
