@@ -56,6 +56,11 @@ header #botao{
     color: var(--cor1);
 }
 
+main{
+    background-color: goldenrod;
+    width: 100%;
+}
+
 #imagem{
     text-align: center;
     margin: 20px;
@@ -72,12 +77,12 @@ header #botao{
     text-align: center;
     font-size: 1.5em;
     top: 150px;
-    width: 485px;
+    width: 475px;
     text-shadow: 1px 5px 10px black;
     
 }
 
-main{
+.txt{
     background-color: gray;
     margin: 10px;
    padding: 10px; 
