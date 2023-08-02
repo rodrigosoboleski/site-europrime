@@ -4,18 +4,18 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
-    font-family: var(--font3);
+    font-family: var(--font1);
 }
 
-:root{
+:root {
     --cor1: rgb(238, 27, 27);
     --cor2: rgb(173, 12, 12);
-    --font1: 'League Spartan', sans-serif;
-    --font2: 'Poppins', sans-serif;
-    --font3: 'Josefin Sans', sans-serif;
+    --font1: 'Josefin Sans', sans-serif;
+    --font2: 'Roboto', sans-serif;
 }
 
-#endereco{
+
+#endereco {
     background-color: black;
     color: white;
     font-size: 0.7em;
@@ -23,7 +23,7 @@
     padding: 5px;
 }
 
-header{
+header {
     background-color: black;
     color: white;
     padding: 10px 15px;
@@ -32,7 +32,7 @@ header{
     align-items: center;
 }
 
-header #botao{
+header #botao {
     padding-right: 20px;
     background-color: var(--cor2);
     padding: 7px;
@@ -43,52 +43,96 @@ header #botao{
     color: white;
 }
 
-#botao:hover{
+#botao:hover {
     background-color: rgba(202, 44, 44, 0.616);
     transition: 0.3s;
 }
 
-#logo h1{
-    font-family: var(--font3);
+#logo h1 {
+    font-family: var(--font1);
 }
 
-#logo span{
+#logo span {
     color: var(--cor1);
 }
 
-main{
+main {
     background-color: white;
     width: 100%;
 }
 
-#imagem{
+#imagem {
     text-align: center;
     margin: 20px;
 }
 
-.img{
+.img {
     margin: 20px auto;
     width: 400px;
 }
 
-.titulo{
+.titulo {
     width: 95vw;
-    border: 2px solid aqua;
     color: white;
     position: absolute;
     text-align: center;
     font-size: 1.5em;
     top: 150px;
-    text-shadow: 1px 5px 10px black;   
+    text-shadow: 1px 5px 10px black;
 }
 
-.titulo h2{
-    background-color: orchid;
-}
-
-.txt{
-    background-color: gray;
+.txt {
+    color: #333333;
     margin: 10px;
-   padding: 10px; 
+    padding: 10px;
+
 }
+
+.txt h3{
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.txt p{
+    font-family: var(--font2);
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+
+#orcamento{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+  }
+
+  #orcamento h3{
+    font-size: 2em;
+  }
+  #orcamento > p{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  #contato p{
+    padding: 5px;
+    color: white;
+ }
+
+ #contato div{
+    background-color: black;
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    width: 320px;
+    margin: 10px auto ;
+    padding: 10px;
+    border-radius: 15px;
+ }
+
+ #contato div:hover{
+    background-color: #161616a4;
+    transition: 0.3s;
+ }
 

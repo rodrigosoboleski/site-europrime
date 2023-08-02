@@ -11,8 +11,7 @@
 :root{
     --cor1: rgb(238, 27, 27);
     --cor2: rgb(173, 12, 12);
-    --font1: 'League Spartan', sans-serif;
-    --font2: 'Poppins', sans-serif;
+    --cor3: #0f0e14;
     --font3: 'Josefin Sans', sans-serif;
 }
 
@@ -22,7 +21,6 @@ body{
 }
 
  header {
-    background-color: black;
     text-align: center;
     
 }

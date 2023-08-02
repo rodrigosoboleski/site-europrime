@@ -9,7 +9,11 @@
 }
 
 @media (min-width: 980px){
-    
+    body{
+        background-image: linear-gradient(to bottom, black, var(--cor3));
+    }
+
+
     .logo{
         margin: auto;
         width: 410px;
