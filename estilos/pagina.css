@@ -10,6 +10,7 @@
 :root {
     --cor1: rgb(238, 27, 27);
     --cor2: rgb(173, 12, 12);
+    --cor3: #333333;
     --font1: 'Josefin Sans', sans-serif;
     --font2: 'Roboto', sans-serif;
 }
@@ -61,28 +62,26 @@ main {
     width: 100%;
 }
 
-#imagem {
-    text-align: center;
-    margin: 20px;
-}
-
 .img {
     margin: 20px auto;
-    width: 400px;
+    text-align: center;
 }
 
 .titulo {
-    width: 95vw;
     color: white;
-    position: absolute;
-    text-align: center;
     font-size: 1.5em;
-    top: 150px;
     text-shadow: 1px 5px 10px black;
+    text-align: center;
+    
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 .txt {
-    color: #333333;
+    color: var(--cor3);
     margin: 10px;
     padding: 10px;
 
@@ -101,7 +100,7 @@ main {
 
 
 #orcamento{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    border-top: 1px solid var(--cor3);
     color: white;
     text-align: center;
     padding: 20px 5px;
@@ -109,6 +108,7 @@ main {
 
   #orcamento h3{
     font-size: 2em;
+    color: black;
   }
   #orcamento > p{
     font-size: 1.5em;
