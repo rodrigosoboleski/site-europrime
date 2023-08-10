@@ -130,7 +130,7 @@ main {
     display: flex;
     font-size: 1em;
     justify-content: center;
-    width: 320px;
+    width: 80%;
     margin: 10px auto ;
     padding: 10px;
     border-radius: 15px;

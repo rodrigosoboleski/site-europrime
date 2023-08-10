@@ -8,6 +8,21 @@
     color: white;
 }
 
+@media screen and (max-width: 420px)  {
+    .logo{
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        padding-top: 26px;
+        border: 1.5px solid var(--cor2);
+        line-height: 2em
+    }
+   
+    .cabecalho > div h1{
+        font-size: 2em;
+    }
+}
+
 @media (min-width: 980px){
     body{
         background-image: linear-gradient(to bottom, black, var(--cor3));

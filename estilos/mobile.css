@@ -22,11 +22,9 @@ body{
 
  header {
     text-align: center;
-    
 }
 
 .cabecalho{
-    font-size: 1em;
     margin-top: 25px;
 }
 .cabecalho > div h1{
@@ -149,7 +147,7 @@ section.container section.card{
     display: flex;
     font-size: 1em;
     justify-content: center;
-    width: 320px;
+    width: 90%;
     margin: 10px auto ;
     padding: 10px;
     border-radius: 15px;
