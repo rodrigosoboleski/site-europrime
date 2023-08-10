@@ -126,7 +126,7 @@ section.container section.card{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     text-align: center;
     margin: 15px auto;
-    width: 80%;
+    width: 90%;
     padding: 20px 5px;
     border-radius: 10px;
   }
